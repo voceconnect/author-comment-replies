@@ -32,7 +32,7 @@ class AuthorCommentReplies
 		static $user_can_reply;
 		if(!isset($user_can_reply))
 		{
-			$user_can_reply = current_user_can('publish_posts'); //require at least author level.
+			$user_can_reply = current_user_can('edit_posts'); //require at least contributor level.
 		}
 		return $user_can_reply;
 	}
