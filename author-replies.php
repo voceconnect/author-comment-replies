@@ -3,7 +3,7 @@
 Plugin Name: Author Comment Replies
 Plugin URI: http://vocecommunications.com/services/wordpress/plugins/author-comment-replies/
 Description: The Author Comment Replies plugin filters WordPress's normal comment replies handling to only allow users with authoring privileges to reply directly to comments.
-Version: 2.0
+Version: 2.0.1
 Author: Michael Pretty (prettyboymp)
 Author URI: http://vocecommunications.com
 

@@ -33,3 +33,11 @@ The plugin name of 'Author Comment Replies' is slightly misleading.  The user le
 = I previously had version 1.? version of the Author Comment Replies plugin installed, and none of those replies are showing up after I upgraded. =
 
 The 1.? version of this plugin came out before comment replies was a part of WP core.  Because of this, it had to use a custom table to store the replies, which is no longer the case.
+
+== Changelog ==
+= 2.1 =
+* added readme
+* changed capability to use 'edit_posts'
+= 2.0 =
+* deprecated old handling of replies to use WordPress' build in reply handling
+* complete plugin rewrite
